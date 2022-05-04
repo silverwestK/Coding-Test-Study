@@ -5,12 +5,9 @@ def insertionSort1(n, arr):
         while i > 0 and arr[i - 1] > target:
             arr[i] = arr[i - 1]
             i -= 1
-            for val in arr:
-                print(val, end= ' ')
-            print()
+            print(*arr)
         arr[i] = target
-    for val in arr:
-        print(val, end= ' ')
+    print(*arr)
 
 if __name__ == '__main__':
     n = int(input().strip())

@@ -6,9 +6,7 @@ def insertionSort2(n, arr):
             arr[i-1], arr[i] = arr[i], arr[i-1]
             i -= 1
         arr[i] = target
-        for val in arr:
-            print(val, end=' ')
-        print()
+        print(*arr)
 
 if __name__ == '__main__':
     n = int(input().strip())
