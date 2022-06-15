@@ -1,3 +1,4 @@
+# 문제: 전화번호 목록
 # Solution 1: Hash
 def solution(phone_book):
     pbDic = {}
