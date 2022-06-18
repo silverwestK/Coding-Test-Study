@@ -19,7 +19,7 @@ def union_parent(parents, up, vp):
         parents[up] = vp
     return parents
 
-def kruskals(g_nodes, g_from, g_to, g_weight):
+def kruskal(g_nodes, g_from, g_to, g_weight):
     parents, edges_info = graph_info(g_nodes, g_from, g_to, g_weight)
     total_weights = 0
     for w, u, v in edges_info:
