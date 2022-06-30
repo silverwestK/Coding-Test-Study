@@ -1,3 +1,4 @@
+# 문제: H-Index
 def solution(citations):
     citations.sort(reverse=True)
     for i, v in enumerate(citations):

@@ -1,3 +1,4 @@
+# 문제: 카펫
 def solution(brown, yellow):
     grids = brown + yellow
     for i in range(round(grids**0.5), 2, -1):

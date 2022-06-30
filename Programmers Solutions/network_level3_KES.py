@@ -1,3 +1,4 @@
+# 문제: 네트워크
 def dfs(computers, i, visited):
     visited[i] = True
     for j in range(len(computers)):
